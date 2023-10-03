@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "$WATER $STIR" | awk '{ printf "%s\n", strtonum($1) + strtonum($2) }' RS=" "
